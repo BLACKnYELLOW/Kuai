@@ -11,6 +11,13 @@
 		CF25214F29A69DC900D75D2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25214E29A69DC900D75D2B /* ContentView.swift */; };
 		CF25215129A69DCB00D75D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF25215029A69DCB00D75D2B /* Assets.xcassets */; };
 		CF25215429A69DCB00D75D2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF25215329A69DCB00D75D2B /* Preview Assets.xcassets */; };
+		CF25215D29AD27E900D75D2B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25215C29AD27E900D75D2B /* HomeView.swift */; };
+		CF25215F29AD27F800D75D2B /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25215E29AD27F800D75D2B /* WeatherView.swift */; };
+		CF25216129AD280200D75D2B /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25216029AD280200D75D2B /* NotesView.swift */; };
+		CF25216329AD281900D75D2B /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25216229AD281900D75D2B /* CalendarView.swift */; };
+		CF25216529AD282A00D75D2B /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25216429AD282A00D75D2B /* AlarmView.swift */; };
+		CF25216729AD283600D75D2B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25216629AD283600D75D2B /* SettingsView.swift */; };
+		CF25216929AD2AF800D75D2B /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25216829AD2AF800D75D2B /* ConfigView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		CF25214E29A69DC900D75D2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF25215029A69DCB00D75D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF25215329A69DCB00D75D2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF25215C29AD27E900D75D2B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CF25215E29AD27F800D75D2B /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		CF25216029AD280200D75D2B /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		CF25216229AD281900D75D2B /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		CF25216429AD282A00D75D2B /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		CF25216629AD283600D75D2B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CF25216829AD2AF800D75D2B /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +65,9 @@
 		CF25214B29A69DC900D75D2B /* Kuai */ = {
 			isa = PBXGroup;
 			children = (
+				CF25215B29AD27B100D75D2B /* Model */,
+				CF25215A29AD279C00D75D2B /* Views */,
 				CF25214C29A69DC900D75D2B /* KuaiApp.swift */,
-				CF25214E29A69DC900D75D2B /* ContentView.swift */,
 				CF25215029A69DCB00D75D2B /* Assets.xcassets */,
 				CF25215229A69DCB00D75D2B /* Preview Content */,
 			);
@@ -65,6 +80,28 @@
 				CF25215329A69DCB00D75D2B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF25215A29AD279C00D75D2B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF25214E29A69DC900D75D2B /* ContentView.swift */,
+				CF25215C29AD27E900D75D2B /* HomeView.swift */,
+				CF25215E29AD27F800D75D2B /* WeatherView.swift */,
+				CF25216829AD2AF800D75D2B /* ConfigView.swift */,
+				CF25216029AD280200D75D2B /* NotesView.swift */,
+				CF25216229AD281900D75D2B /* CalendarView.swift */,
+				CF25216429AD282A00D75D2B /* AlarmView.swift */,
+				CF25216629AD283600D75D2B /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF25215B29AD27B100D75D2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +174,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF25215D29AD27E900D75D2B /* HomeView.swift in Sources */,
+				CF25216729AD283600D75D2B /* SettingsView.swift in Sources */,
 				CF25214F29A69DC900D75D2B /* ContentView.swift in Sources */,
+				CF25216929AD2AF800D75D2B /* ConfigView.swift in Sources */,
+				CF25216329AD281900D75D2B /* CalendarView.swift in Sources */,
+				CF25216129AD280200D75D2B /* NotesView.swift in Sources */,
 				CF25214D29A69DC900D75D2B /* KuaiApp.swift in Sources */,
+				CF25216529AD282A00D75D2B /* AlarmView.swift in Sources */,
+				CF25215F29AD27F800D75D2B /* WeatherView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
