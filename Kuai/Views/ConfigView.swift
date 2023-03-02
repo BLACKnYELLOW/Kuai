@@ -8,43 +8,39 @@
 import SwiftUI
 
 struct ConfigView: View {
-    @State var showAlarm: Bool = false
     @State var showNotes: Bool = false
     @State var showCalendar: Bool = false
-    @State var showSettings: Bool = false
+    @State var showWeekly: Bool = false
     var body: some View {
         VStack {
             Button {
-                showAlarm = true
+                showWeekly = true
                 showNotes = false
                 showCalendar = false
-                showSettings = false
             } label: {
                 ZStack {
                     Rectangle()
                         .foregroundColor(.red)
                         .cornerRadius(10)
-                    Text("Alarm Setup")
+                    Text("Weekly Setup")
                 }
             }
             Button {
-                showAlarm = false
+                showWeekly = false
                 showNotes = true
                 showCalendar = false
-                showSettings = false
             } label: {
                 ZStack {
                     Rectangle()
                         .foregroundColor(.red)
                         .cornerRadius(10)
-                    Text("Notes Setup")
+                    Text("Morning Setup")
                 }
             }
             Button {
-                showAlarm = false
+                showWeekly = false
                 showNotes = false
                 showCalendar = true
-                showSettings = false
             } label: {
                 ZStack {
                     Rectangle()
@@ -53,31 +49,15 @@ struct ConfigView: View {
                     Text("Calender Setup")
                 }
             }
-            Button {
-                showAlarm = false
-                showNotes = false
-                showCalendar = false
-                showSettings = true
-            } label: {
-                ZStack {
-                    Rectangle()
-                        .foregroundColor(.red)
-                        .cornerRadius(10)
-                    Text("Settings")
-                }
-            }
-        }.sheet(isPresented: $showAlarm) {
-            AlarmView()
+        }.sheet(isPresented: $showWeekly) {
+            WeeklyView()
         }.sheet(isPresented: $showNotes) {
             NotesView()
         }.sheet(isPresented: $showCalendar) {
             CalendarView()
-        }.sheet(isPresented: $showSettings) {
-            SettingsView()
         }
     }
 }
-
 struct ConfigView_Previews: PreviewProvider {
     static var previews: some View {
         ConfigView()

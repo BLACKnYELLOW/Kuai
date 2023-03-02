@@ -18,6 +18,7 @@
 		CF25216529AD282A00D75D2B /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25216429AD282A00D75D2B /* AlarmView.swift */; };
 		CF25216729AD283600D75D2B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25216629AD283600D75D2B /* SettingsView.swift */; };
 		CF25216929AD2AF800D75D2B /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25216829AD2AF800D75D2B /* ConfigView.swift */; };
+		CF25216B29B1161A00D75D2B /* WeeklyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25216A29B1161A00D75D2B /* WeeklyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		CF25216429AD282A00D75D2B /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
 		CF25216629AD283600D75D2B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CF25216829AD2AF800D75D2B /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
+		CF25216A29B1161A00D75D2B /* WeeklyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				CF25215C29AD27E900D75D2B /* HomeView.swift */,
 				CF25216229AD281900D75D2B /* CalendarView.swift */,
 				CF25216029AD280200D75D2B /* NotesView.swift */,
+				CF25216A29B1161A00D75D2B /* WeeklyView.swift */,
 			);
 			path = Reminders;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				CF25216329AD281900D75D2B /* CalendarView.swift in Sources */,
 				CF25216129AD280200D75D2B /* NotesView.swift in Sources */,
 				CF25214D29A69DC900D75D2B /* KuaiApp.swift in Sources */,
+				CF25216B29B1161A00D75D2B /* WeeklyView.swift in Sources */,
 				CF25216529AD282A00D75D2B /* AlarmView.swift in Sources */,
 				CF25215F29AD27F800D75D2B /* WeatherView.swift in Sources */,
 			);
