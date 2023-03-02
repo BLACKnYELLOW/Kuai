@@ -86,12 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				CF25214E29A69DC900D75D2B /* ContentView.swift */,
-				CF25215C29AD27E900D75D2B /* HomeView.swift */,
+				E267507629B113C4002776E7 /* Reminders */,
 				CF25215E29AD27F800D75D2B /* WeatherView.swift */,
-				CF25216829AD2AF800D75D2B /* ConfigView.swift */,
-				CF25216029AD280200D75D2B /* NotesView.swift */,
-				CF25216229AD281900D75D2B /* CalendarView.swift */,
 				CF25216429AD282A00D75D2B /* AlarmView.swift */,
+				CF25216829AD2AF800D75D2B /* ConfigView.swift */,
 				CF25216629AD283600D75D2B /* SettingsView.swift */,
 			);
 			path = Views;
@@ -102,6 +100,16 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E267507629B113C4002776E7 /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				CF25215C29AD27E900D75D2B /* HomeView.swift */,
+				CF25216229AD281900D75D2B /* CalendarView.swift */,
+				CF25216029AD280200D75D2B /* NotesView.swift */,
+			);
+			path = Reminders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

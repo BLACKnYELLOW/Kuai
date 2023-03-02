@@ -10,13 +10,21 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            HomeView()
+            CalendarView()
                 .tabItem {
-                    Text("Home")
+                    Text("Reminders")
                 }
             WeatherView()
                 .tabItem {
                     Text("Weather")
+                }
+            HomeView()
+                .tabItem {
+                    Text("Home")
+                }
+            AlarmView()
+                .tabItem {
+                    Text("Alarm")
                 }
             ConfigView()
                 .tabItem {
