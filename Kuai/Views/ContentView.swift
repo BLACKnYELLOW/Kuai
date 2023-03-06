@@ -12,25 +12,36 @@ struct ContentView: View {
         TabView {
             ConfigView()
                 .tabItem {
+                    Image(systemName: "alarm")
                     Text("Reminders")
                 }
             WeatherView()
                 .tabItem {
+                    Image(systemName: "cloud.sun")
                     Text("Weather")
                 }
             HomeView()
                 .tabItem {
+                    Image(systemName: "house")
                     Text("Home")
                 }
             AlarmView()
                 .tabItem {
+                    Image(systemName: "alarm")
                     Text("Alarm")
                 }
             SettingsView()
                 .tabItem {
+                    Image(systemName: "gear")
                     Text("Settings")
                 }
         }
+        
+        Spacer()
+        Spacer()
+        
+//        CustomTabBar()
+        
     }
 }
 

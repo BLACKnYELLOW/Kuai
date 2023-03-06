@@ -19,6 +19,8 @@
 		CF25216729AD283600D75D2B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25216629AD283600D75D2B /* SettingsView.swift */; };
 		CF25216929AD2AF800D75D2B /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25216829AD2AF800D75D2B /* ConfigView.swift */; };
 		CF25216B29B1161A00D75D2B /* WeeklyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25216A29B1161A00D75D2B /* WeeklyView.swift */; };
+		E267507929B6743D002776E7 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E267507829B6743D002776E7 /* CustomTabBar.swift */; };
+		E267507C29B675DF002776E7 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E267507B29B675DF002776E7 /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		CF25216629AD283600D75D2B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		CF25216829AD2AF800D75D2B /* ConfigView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
 		CF25216A29B1161A00D75D2B /* WeeklyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyView.swift; sourceTree = "<group>"; };
+		E267507829B6743D002776E7 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		E267507B29B675DF002776E7 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = Kuai/Views/Fonts.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 		CF25214B29A69DC900D75D2B /* Kuai */ = {
 			isa = PBXGroup;
 			children = (
+				E267507A29B675D0002776E7 /* Fonts */,
 				CF25215B29AD27B100D75D2B /* Model */,
 				CF25215A29AD279C00D75D2B /* Views */,
 				CF25214C29A69DC900D75D2B /* KuaiApp.swift */,
@@ -93,6 +98,7 @@
 				CF25216429AD282A00D75D2B /* AlarmView.swift */,
 				CF25216829AD2AF800D75D2B /* ConfigView.swift */,
 				CF25216629AD283600D75D2B /* SettingsView.swift */,
+				E267507829B6743D002776E7 /* CustomTabBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -113,6 +119,15 @@
 				CF25216A29B1161A00D75D2B /* WeeklyView.swift */,
 			);
 			path = Reminders;
+			sourceTree = "<group>";
+		};
+		E267507A29B675D0002776E7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E267507B29B675DF002776E7 /* Fonts.swift */,
+			);
+			name = Fonts;
+			path = Model/Kuai/Model/Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +203,8 @@
 				CF25215D29AD27E900D75D2B /* HomeView.swift in Sources */,
 				CF25216729AD283600D75D2B /* SettingsView.swift in Sources */,
 				CF25214F29A69DC900D75D2B /* ContentView.swift in Sources */,
+				E267507929B6743D002776E7 /* CustomTabBar.swift in Sources */,
+				E267507C29B675DF002776E7 /* Fonts.swift in Sources */,
 				CF25216929AD2AF800D75D2B /* ConfigView.swift in Sources */,
 				CF25216329AD281900D75D2B /* CalendarView.swift in Sources */,
 				CF25216129AD280200D75D2B /* NotesView.swift in Sources */,
