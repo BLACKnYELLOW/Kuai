@@ -9,7 +9,358 @@ import SwiftUI
 
 struct CalendarView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Month")
+                .padding()
+                .frame(width: 300, height: 100)
+                .background(Color.blue)
+                .cornerRadius(20)
+            
+            HStack {
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+            }
+            HStack {
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+            }
+            HStack {
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+            }
+            HStack {
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+                Button {
+                    //
+                } label: {
+                    ZStack {
+                        Rectangle()
+                            .foregroundColor(.blue)
+                            .cornerRadius(15)
+                            .frame(height: 75)
+                        Text("day")
+                            .foregroundColor(Color.black)
+                    }
+                }
+            }
+        }
     }
 }
 

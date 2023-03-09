@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3ED898229B8FF1800CE9D5D /* CalendarInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ED898129B8FF1800CE9D5D /* CalendarInfo.swift */; };
 		CF25214D29A69DC900D75D2B /* KuaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25214C29A69DC900D75D2B /* KuaiApp.swift */; };
 		CF25214F29A69DC900D75D2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25214E29A69DC900D75D2B /* ContentView.swift */; };
 		CF25215129A69DCB00D75D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF25215029A69DCB00D75D2B /* Assets.xcassets */; };
