@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ConfigView: View {
-    @State var showNotes: Bool = false
+    @EnvironmentObject var info: BasicInfo
+    @EnvironmentObject var dailyReminders: DailyReminderList
     @State var showCalendar: Bool = false
     @State var showWeekly: Bool = false
     var body: some View {
         VStack {
             Button {
                 showWeekly = true
-                showNotes = false
                 showCalendar = false
             } label: {
                 ZStack {
@@ -27,8 +27,8 @@ struct ConfigView: View {
             }
             Button {
                 showWeekly = false
-                showNotes = true
                 showCalendar = false
+                info.view = .morningSetup
             } label: {
                 ZStack {
                     Rectangle()
@@ -39,7 +39,6 @@ struct ConfigView: View {
             }
             Button {
                 showWeekly = false
-                showNotes = false
                 showCalendar = true
             } label: {
                 ZStack {
@@ -51,8 +50,6 @@ struct ConfigView: View {
             }
         }.sheet(isPresented: $showWeekly) {
             WeeklyView()
-        }.sheet(isPresented: $showNotes) {
-            NotesView()
         }.sheet(isPresented: $showCalendar) {
             CalendarView()
         }
