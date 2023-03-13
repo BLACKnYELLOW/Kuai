@@ -12,16 +12,17 @@ struct ContentView: View {
     var body: some View {
         if info.view == .tab {
             TabView {
-                ConfigView()
-                    .tabItem {
-                        Image(systemName: "alarm")
-                        Text("Reminders")
-                    }
                 WeatherView()
                     .tabItem {
                         Image(systemName: "cloud.sun")
                         Text("Weather")
                     }
+                ConfigView()
+                    .tabItem {
+                        Image(systemName: "alarm")
+                        Text("Reminders")
+                    }
+                
                 HomeView()
                     .tabItem {
                         Image(systemName: "house")

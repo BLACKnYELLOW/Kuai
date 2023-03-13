@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3ED898229B8FF1800CE9D5D /* CalendarInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ED898129B8FF1800CE9D5D /* CalendarInfo.swift */; };
 		CF25214D29A69DC900D75D2B /* KuaiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25214C29A69DC900D75D2B /* KuaiApp.swift */; };
 		CF25214F29A69DC900D75D2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25214E29A69DC900D75D2B /* ContentView.swift */; };
 		CF25215129A69DCB00D75D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF25215029A69DCB00D75D2B /* Assets.xcassets */; };
@@ -24,6 +23,7 @@
 		CF25217129B8FE9600D75D2B /* MorningSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25217029B8FE9600D75D2B /* MorningSetupView.swift */; };
 		CF25217329B9782800D75D2B /* MorningSetupAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25217229B9782800D75D2B /* MorningSetupAdd.swift */; };
 		CF25217529BA30E400D75D2B /* EditMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF25217429BA30E400D75D2B /* EditMode.swift */; };
+		E23C8AA029BF9E420088CAA2 /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23C8A9F29BF9E420088CAA2 /* FetchData.swift */; };
 		E267507929B6743D002776E7 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E267507829B6743D002776E7 /* CustomTabBar.swift */; };
 		E267507C29B675DF002776E7 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E267507B29B675DF002776E7 /* Fonts.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +46,7 @@
 		CF25217029B8FE9600D75D2B /* MorningSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningSetupView.swift; sourceTree = "<group>"; };
 		CF25217229B9782800D75D2B /* MorningSetupAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningSetupAdd.swift; sourceTree = "<group>"; };
 		CF25217429BA30E400D75D2B /* EditMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMode.swift; sourceTree = "<group>"; };
+		E23C8A9F29BF9E420088CAA2 /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
 		E267507829B6743D002776E7 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		E267507B29B675DF002776E7 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fonts.swift; path = Kuai/Views/Fonts.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -64,6 +65,7 @@
 		CF25214029A69DC900D75D2B = {
 			isa = PBXGroup;
 			children = (
+				E23C8A9E29BF9DAA0088CAA2 /* Weather Stuff */,
 				CF25214B29A69DC900D75D2B /* Kuai */,
 				CF25214A29A69DC900D75D2B /* Products */,
 			);
@@ -122,6 +124,14 @@
 				CF25217429BA30E400D75D2B /* EditMode.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		E23C8A9E29BF9DAA0088CAA2 /* Weather Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				E23C8A9F29BF9E420088CAA2 /* FetchData.swift */,
+			);
+			path = "Weather Stuff";
 			sourceTree = "<group>";
 		};
 		E267507629B113C4002776E7 /* Reminders */ = {
@@ -222,6 +232,7 @@
 				CF25216F29B8FD0800D75D2B /* Enum.swift in Sources */,
 				E267507C29B675DF002776E7 /* Fonts.swift in Sources */,
 				CF25216929AD2AF800D75D2B /* ConfigView.swift in Sources */,
+				E23C8AA029BF9E420088CAA2 /* FetchData.swift in Sources */,
 				CF25216329AD281900D75D2B /* CalendarView.swift in Sources */,
 				CF25214D29A69DC900D75D2B /* KuaiApp.swift in Sources */,
 				CF25216B29B1161A00D75D2B /* WeeklyView.swift in Sources */,
